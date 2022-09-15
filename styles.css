@@ -191,8 +191,6 @@ button {
   }
 
   #result {
-    left: 0%;
-    transform: translate(10%, 5%);
     width: 80%;
   }
 
