@@ -17,10 +17,11 @@
             background-color: tomato;
             color: whitesmoke;
             padding: 10px 5px;
-            width: 10%;
+            width: 50%;
             margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 10px 10px 10px grey;
+            margin-top: 20px;
         }
 
         .main {
@@ -43,7 +44,7 @@
 
 <body>
     <header class="header">
-        <h1>Blogs</h1>
+        <h1>Welcome to blog page!!!</h1>
     </header>
     <main class="main">
         <div class="blog-container">
@@ -55,6 +56,38 @@
                 particular
                 tab
                 in the browser, a unique page session gets created and assigned to that particular tab.
+            </h4>
+        </div>
+        <div class="blog-container">
+            <h3>2. What are the difference between global scope and block scope?</h3>
+            <h4><strong>Answer:</strong> All the variable that is declared inside curly braces {} by let and const
+                (aside from var). In addition variable declared inside a function (by
+                let, const and var) has functional scope, and this variable cannot be access outside of the function. On
+                the other and the global varible that can be accessed from anywhere in the context of browser they are
+                found on window object(aside from let and const).
+            </h4>
+        </div>
+        <div class="blog-container">
+            <h3>3. How does event loop work?</h3>
+            <h4><strong>Answer:</strong> The event loop is a mechanism that allows JavaScript to perform non-blocking
+                operations. All the synchronous tasks are stacked in a stack. The event loop continuously checks the
+                call stack to see if there's any function that needs to run. After that for asynchronous tasks it checks
+                queue. From heap memory waited task goes to the queue. And one by one complete the task.
+            </h4>
+        </div>
+        <div class="blog-container">
+            <h3>3. What are ways to get undefined as result?</h3>
+            <h4><strong>Answer:</strong>
+                <ol>
+                    <li>Variable that is not initialized.</li>
+                    <li>Function with no return.</li>
+                    <li>Parameter that is not passed.</li>
+                    <li>If return has nothing on the right side.</li>
+                    <li>Object property that doesn't exist.</li>
+                    <li>Accessing array elements outside of the index range.</li>
+                    <li>Deleting element inside an array.</li>
+                    <li>Set a value directly to undefined.</li>
+                </ol>
             </h4>
         </div>
     </main>
